@@ -1,12 +1,12 @@
 .container {
-  margin: 90px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px solid black;
-  border-radius: 8px;
-  background-color: #CC9966;
-  font-family: 'Fauna One', serif;
+  margin: 60px auto;
+  width: 95%;
+  height: 400px;
+  padding: 0px 20px 40px 20px;
+  background-color: white;
+  font-family: 'Arial', sans-serif;
   box-shadow: 10px 10px 5px #888888;
+  font-size: 20px;
 }
 
 th {
@@ -56,4 +56,22 @@ header li {
 
 h1, h2, h3, h4 {
   font-family: 'Fugaz One', cursive;
+}
+
+p span.current{
+  background-color: black;
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid red;
+}
+
+p span.wrong{
+  background-color: red;
+  border: 1px solid red;
+}
+
+p#instructions{
+  color: grey;
+  font-size: 16px;
 }
