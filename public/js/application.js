@@ -32,3 +32,11 @@ $(document).ready(function() {
 
 
 });
+
+
+// COMMAND = 91
+// SHIFT = 16
+// CONTROL = 17
+// CAPS = 20
+// ALT/OPTION = 18
+// BACKSPACE = 8

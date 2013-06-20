@@ -58,10 +58,11 @@ h1, h2, h3, h4 {
   font-family: 'Fugaz One', cursive;
 }
 
+
 p span.current{
   background-color: black;
   color: green;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-size: 20px;
   border: 1px solid red;
 }
