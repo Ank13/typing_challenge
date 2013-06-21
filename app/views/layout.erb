@@ -21,20 +21,12 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="/js/application.js"></script>
 
-  <title> My App </title>
+  <title> Typing practice </title>
 </head>
 
 <header>
   <nav>
       <li><a href="/generate_doc">Generate</a></li>
-    <% if logged_in? %>
-      <li><a href="#">Protected Page</a></li>
-      <li><a href="/logout">Sign out</a></li>
-      <li>Welcome, <%= current_user.name %></li>
-    <% else %>
-      <li><a href="/signup">Sign Up</a></li>
-      <li><a href="/login">Sign In</a></li>
-    <% end %>
   </nav>
 </header>
 
