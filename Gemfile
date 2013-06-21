@@ -15,10 +15,10 @@ gem 'activerecord'
 
 gem 'rake'
 
-gem 'shotgun'
+# gem 'shotgun'
 # gem 'bcrypt-ruby'
 # gem 'faker'
+gem 'rspec'
 
 group :test do
-  gem 'rspec'
 end
